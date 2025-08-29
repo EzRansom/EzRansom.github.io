@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#first-paragraph{
+    color: magenta;
+}
+#second-paragraph{
+    background-color: red;
+    color: midnightblue;
+}

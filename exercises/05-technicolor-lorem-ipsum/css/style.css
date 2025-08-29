@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#paragraph-1{
+    color: red;
+}
+#span-1{
+    background-color: greenyellow;
+    color: blue;
+}
+#span-2{
+    color: darkblue;
+    background-color: brown;
+}
+#paragraph-2{
+    color: hotpink;
+    background-color: blueviolet;
+}
+#span-3{
+    color: blanchedalmond;
+    background-color: black;
+}
+#span-4{
+    color: beige;
+    background-color: black;
+}
+#span-5{
+    color: aqua;
+    background-color: blue;
+}
+#paragraph-3{
+    color: aquamarine;
+    background-color: black;
+}
+#span-6{
+    color: azure;
+    background-color: red;
+}
+#span-7{
+    color: blueviolet;
+    background-color: aliceblue;
+}
