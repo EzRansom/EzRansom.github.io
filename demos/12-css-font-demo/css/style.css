@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#span-1{
+    color: red;
+    font-weight: 600;
+    font-style: italic;
+}
+#big-paragraph{
+    font-size: 4vw;
+    text-decoration: underline;
+}
+#no-underline{
+    color: black;
+}
+#image-align{
+    width: 500px;
+}
+#align-test{
+    text-align: center;
+}
