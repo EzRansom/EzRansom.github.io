@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: black;
+}
+
+div {
+    background-color: aliceblue;
+}
+
+.color-palette {
+    box-shadow: 6px 6px 12px #989898;
+    margin: 24px;
+    padding: 24px;
+    text-align: center;
+}
+
+#color-1 {
+    background-color: #114B5F;
+    color: white;
+}
+
+#color-2 {
+    background-color: #456990;
+    color: white;
+}
+
+#color-3 {
+    background-color: #E4FDE1;
+}
+
+#color-4 {
+    background-color: #F45B69;
+}
+
+#color-5 {
+    background-color: #6B2737;
+    color: white;
+}
+
+.color {
+    padding: 24px;
+    margin: 0px;
+}
+
+#color-6 {
+    background-color: #587B7F;
+}
+
+#color-7 {
+    background-color: #1E2019;
+    color: white;
+}
+
+#color-8 {
+    background-color: #394032;
+}
+
+#color-9 {
+    background-color: #8DAB7F;
+}
+
+#color-10 {
+    background-color: #CFEE9E;
+}
+
+/* Splatoon Colors */
+#color-11 {
+    background-color: #242038;
+    color: white;
+}
+
+#color-12 {
+    background-color: #2176FF;
+    color: white;
+}
+
+#color-13 {
+    background-color: #33A1FD;
+    color: white;
+}
+#color-14 {
+    background-color: #FDCA40;
+}
+
+#color-15 {
+    background-color: #F79824;
+}
