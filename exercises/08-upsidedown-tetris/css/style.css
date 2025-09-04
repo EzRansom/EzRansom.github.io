@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#container {
+    width: 500px;
+    height: 100vh;
+    background-color: gray;
+    font-size: 0px;
+}
+
+.block {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+}
+
+.red {
+    background-color: red;
+}
+
+.corner-block-l {
+    display: block;
+    align-self: last baseline;
+}
+.t-block {
+    display: block;
+    align-items: center;
+}
+.yellow {
+    background-color: yellow;
+}
+
+.gray {
+    background-color: gray;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.purple {
+    background-color: blueviolet;
+}
