@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+.rec-frame {
+    border: 10px solid black;
+    width: 469px;
+    background-color: cornsilk;
+    padding: 24px;
+    margin: 24px;
+
+}
+
+#cir-frame {
+    border: 10px solid black;
+    border-radius: 50%;
+    width: 330px;
+    background-color: cornsilk;
+    padding: 10px 45px 20px;
+    margin: 30px 200px;
+    height: 330px;
+}
+
+#round {
+    padding: 0%;
+}
+
+#title {
+    margin: 50px 80px;
+    padding: 30px 20px;
+    display: inline-block;
+}
