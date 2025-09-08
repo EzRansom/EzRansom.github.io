@@ -1,42 +1,42 @@
 /*
-NOTE TO STUDENTS: 
+    NOTE TO STUDENTS: 
 
-This is the file you should be writing your CSS in 
-for the Bulletin Board assignment.
-Good luck, and have fun!
+    This is the file you should be writing your CSS in 
+    for the Bulletin Board assignment.
+    Good luck, and have fun!
 */
 .post-it {
-background-color: yellow;
-display: inline-block;
-width: 200px ;
-height: 200px;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-margin: 24px;
-padding: 24px;
-vertical-align: top;
+    background-color: yellow;
+    display: inline-block;
+    width: 200px ;
+    height: 200px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 24px;
+    padding: 24px;
+    vertical-align: top;
 }
 
 .purple {
-background-color: violet;
+    background-color: violet;
 }
 
 .green {
-background-color: greenyellow;
+    background-color: greenyellow;
 }
 
 .cyan {
-background-color: lightblue;
+    background-color: lightblue;
 }
 
 .pink {
-background-color: lightcoral;
+    background-color: lightcoral;
     
 }
 
 .orange {
-background-color: orange;
+    background-color: orange;
 }
 
 .empty {
-background-color: transparent;
+    background-color: transparent;
 }
