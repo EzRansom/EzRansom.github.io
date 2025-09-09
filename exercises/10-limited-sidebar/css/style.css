@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#sidebar {
+    background-color: #333333;
+    color: white;
+    width: 500px;
+    min-height: 100vh;
+    padding: 24px;
+}
+
+.chapter {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+li.edit {
+    color: orange;
+    font-style: italic;
+}
+div .chapter.edit {
+    color: red;
+}
+
+h3 {
+    margin: 10px;
+}
+
+li {
+    margin-top: 5px;
+}
