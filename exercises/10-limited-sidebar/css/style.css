@@ -15,23 +15,23 @@ body {
     padding: 24px;
 }
 
-.chapter {
+#sidebar .chapter {
     font-weight: bold;
     font-size: 24px;
 }
 
-li.edit {
+#sidebar li.edit {
     color: orange;
     font-style: italic;
 }
-div .chapter.edit {
+#sidebar .chapter.edit {
     color: red;
 }
 
-h3 {
+#sidebar h4 {
     margin: 10px;
 }
 
-li {
+#sidebar li {
     margin-top: 5px;
 }
