@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#morning {
+    background-color: rgb(255, 187, 0);
+    padding: 24px;
+    margin: 40px;
+    border-radius: 12px;
+}
+
+#morning div {
+    background-color: beige;
+    padding: 24px;
+    border-radius: 10px;
+}
+
+li {
+    margin: 10px;
+}
+
+.button {
+    background-color: rgb(37, 207, 122);
+    color: black;
+    padding: 4px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 2px solid black;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+.important {
+    color: brown;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.completed.important {
+    color: brown;
+    text-decoration: line-through ;
+    background-color: yellow;
+}
+
+#afternoon {
+    background-color: rgb(7, 190, 190);
+    padding: 24px;
+    margin: 40px;
+    border-radius: 12px;
+}
+
+#afternoon div {
+    background-color: rgb(195, 236, 255);
+    padding: 24px;
+    border-radius: 10px;
+}
+
+#evening {
+    background-color: rgb(86, 125, 164);
+    padding: 24px;
+    margin: 40px;
+    border-radius: 12px;  
+}
+
+#evening div {
+    background-color: rgb(238, 250, 255);
+    padding: 24px;
+    border-radius: 10px;
+}
