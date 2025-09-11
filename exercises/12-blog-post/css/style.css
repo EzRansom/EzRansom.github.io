@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: rgb(198, 240, 248);
+}
+
+.post-centered {
+    background-color: white;
+    border: 4px solid pink;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 24px;
+    max-width: 700px;
+}
+
+.post-centered.image {
+    margin-left: 10px;
+    display: inline-block;
+    margin: auto;
+    
+}
+
+.artical-info {
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.seperator {
+    border-bottom: 2px solid pink;
+    margin: 40px 0px;
+}
+
+.image.square {
+    margin: 0px 159px;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+}
+
+#table-of-contents {
+    border-bottom: 2px solid black;
+    margin-right: 430px;
+}
