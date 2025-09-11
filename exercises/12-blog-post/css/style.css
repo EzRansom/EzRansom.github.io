@@ -17,10 +17,9 @@ body {
     max-width: 700px;
 }
 
-.post-centered.image {
-    margin-left: 10px;
+.image {
     display: inline-block;
-    margin: auto;
+    margin: 0px 20px;
     
 }
 
@@ -35,7 +34,8 @@ body {
 }
 
 .image.square {
-    margin: 0px 159px;
+    margin: 0px 160px;
+    max-width: auto;
 }
 
 .link {
@@ -47,4 +47,15 @@ body {
 #table-of-contents {
     border-bottom: 2px solid black;
     margin-right: 430px;
+}
+p {
+    width: 600px;
+    margin-left: 19px;
+}
+
+h2 {
+    margin-left: 20px;
+}
+h1 {
+    margin-left: 20px;
 }
