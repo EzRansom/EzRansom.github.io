@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Bytesized&family=DM+Serif+Text:ital@0;1&family=Jersey+10&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.single-column {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+     
+}
+
+.light-outer-container {
+    background-color: rgb(255, 255, 255);
+    padding: 48px 24px;
+}
+
+/* .dark-outer-container {
+    background-color: #013d01;
+    padding: 48px 24px;
+    color: light;
+} */
+
+h2 {
+    font-family: "Jersey 10", sans-serif;
+    text-align: center;
+}
+
+h3 {
+    font-family: "Jersey 10", sans-serif;
+}
+
+.button {
+    background-color: red;
+    color: white;
+    padding: 24px ;
+    /* margin-left:  200px; */
+    margin: 24px 24px;
+    border-radius: 10px;
+    
+}
+
