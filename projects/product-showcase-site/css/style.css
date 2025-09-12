@@ -13,19 +13,12 @@ body {
     max-width: 500px;
     margin-left: auto;
     margin-right: auto;
-     
 }
 
 .light-outer-container {
-    padding: 48px 24px;
+    padding: 48px 48px;
+    display: inline-block;
 }
-
-    /*.
-    dark-outer-container {
-        background-color: #013d01;
-        padding: 48px 24px;
-        color: light;
-}   */
 
 h2 {
     font-family: "Jersey 10", sans-serif;
@@ -55,13 +48,14 @@ h3 {
     border: 2px solid red;
     border-radius: 10px;
     background-color: white;
+    
 }
 
 .container {
     background-color: whitesmoke;
     border: 2px solid gray;
     border-radius: 20px;
-    padding: 40px;
+    
 }
 
 p {
