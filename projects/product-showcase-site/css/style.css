@@ -15,9 +15,14 @@ body {
     margin-right: auto;
 }
 
+.dark-outer-container {
+    padding: 48px 24px;
+    background-color: gray;
+}
+
 .light-outer-container {
-    padding: 48px 48px;
-    display: inline-block;
+    padding: 48px 24px;
+    background-color: white;
 }
 
 h2 {
@@ -48,15 +53,9 @@ h3 {
     border: 2px solid red;
     border-radius: 10px;
     background-color: white;
-    
 }
 
-.container {
-    background-color: whitesmoke;
-    border: 2px solid gray;
-    border-radius: 20px;
-    
-}
+
 
 p {
     font-family: "Funnel Display", sans-serif;
@@ -64,4 +63,16 @@ p {
 
 a {
     font-family: "Funnel Display", sans-serif;
+}
+
+div.dark-outer-container p {
+    color: white;
+}
+
+div.dark-outer-container h3 {
+    color: white;
+}
+
+div.dark-outer-container h2 {
+    color: white;
 }
