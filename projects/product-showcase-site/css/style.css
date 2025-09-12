@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Bytesized&family=DM+Serif+Text:ital@0;1&family=Jersey+10&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bytesized&family=DM+Serif+Text:ital@0;1&family=Funnel+Display:wght@300..800&family=Jersey+10&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -16,17 +17,15 @@ body {
 }
 
 .light-outer-container {
-    background-color: rgb(255, 255, 255);
-    backdrop-filter: blur 50px;
-
     padding: 48px 24px;
 }
 
-/* .dark-outer-container {
-    background-color: #013d01;
-    padding: 48px 24px;
-    color: light;
-} */
+    /*.
+    dark-outer-container {
+        background-color: #013d01;
+        padding: 48px 24px;
+        color: light;
+}   */
 
 h2 {
     font-family: "Jersey 10", sans-serif;
@@ -46,11 +45,29 @@ h3 {
     margin-right: auto;
     border-radius: 10px;
     text-align: center;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 .image {
     padding: 20px;
     margin-bottom: 50px;
-    border: 1px solid red;
+    border: 2px solid red;
     border-radius: 10px;
+    background-color: white;
+}
+
+.container {
+    background-color: whitesmoke;
+    border: 2px solid gray;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+p {
+    font-family: "Funnel Display", sans-serif;
+}
+
+a {
+    font-family: "Funnel Display", sans-serif;
 }
