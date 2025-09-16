@@ -45,22 +45,15 @@ body {
 
 #recipe-cards {
     display: flex;
-    align-items: center;
     gap: 36px;
-    align-items: center;
-    justify-content: center;
-}
-
-#recipe-cards .image-container {
-    max-width: auto;
     flex-direction: row;
+    margin: 36px 0px;
 
 }
 
 #recipe-cards img {
-    width: 350px;
+    width: 50%;
     height: 350px;
-    flex-direction: row;
     object-fit: cover;
 }
 
@@ -68,8 +61,12 @@ h2 {
     text-align: center;
 }
 
-#text-container-2 p{
-    font-weight: lighter;
+#recipe-cards .cards{
     text-align: center;
-    flex-direction: row;
+    margin: 36px 0px;
+}
+
+#recipe-cards .card p{
+    text-align: center;
+    margin: 24px 0px 0px;
 }
