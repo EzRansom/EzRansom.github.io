@@ -11,8 +11,8 @@ body {
 #navbar {
     background: linear-gradient(
         to top,
-        lightpink,
-        pink
+        pink,
+        lightpink
     );
     display: flex;
     justify-content: space-between;
