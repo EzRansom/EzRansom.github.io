@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Bytesized&family=DM+Serif+Text:ital@0;1&family=Funnel+Display:wght@300..800&family=Jersey+10&family=Lobster&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#navbar {
+    background: linear-gradient(
+        to top,
+        lightpink,
+        pink
+        );
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+
+}
+
+#navbar #logo-container.lobster-regular{
+    max-width: 200px;
+    font-size: 48px;
+    
+}
+
+#navbar #logo-container {
+    margin-right: auto;
+}
+
+#navbar .cta-button {
+    background-color: white;
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    color: pink;
+    text-align: center;
+    margin-right: 24px;
+    margin-left: 24px;
+}
+
+.cta-button {
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lobster-regular {
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.title {
+    color: rgb(232, 130, 147);
+    text-align: center;
+}
+
+#navbar a.link.lobster-regular {
+    font-size: 24px;
+}
