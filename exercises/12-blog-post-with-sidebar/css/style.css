@@ -19,7 +19,8 @@ body {
     background-color: white;
     border: 2px solid pink;
     border-radius: 10px;
-    margin-top: 10px;
+    margin-top: 24px;
+    margin-bottom: 24px;
     flex: 1;
     order: 1;
     padding: 24px;
@@ -27,8 +28,8 @@ body {
 
 .image {
     display: inline-block;
-    margin: 0px 20px;
-    
+    margin: 0px px;
+    width: 100%;
 }
 
 .artical-info {
@@ -42,8 +43,8 @@ body {
 }
 
 .image.square {
-    margin: 0px 160px;
-    max-width: 100%;
+    margin: 0px 129px;
+    width: 50%;
 }
 
 .link {
@@ -53,12 +54,11 @@ body {
 }
 
 #table-of-contents {
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid pink;
     margin-right: 430px;
 }
 p {
-    width: 600px;
-    margin-left: 19px;
+    width: 100%;
 }
 
 h2 {
@@ -94,12 +94,12 @@ h1 {
 
 #sidebar-content a {
     text-decoration: none;
-    color: black;
+    color: rgb(44, 138, 189);
 }
 
 #sidebar-content li {
     padding: 8px 0px;
-    border-bottom: 1px solid darkslategrey;
+    border-bottom: 1px solid pink;
 }
 
 /* pseudo-class */
