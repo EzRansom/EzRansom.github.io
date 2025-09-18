@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#three-column {
+    display: flex;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid red;
+}
+
+/* thumbnail column */
+#thumbnail-column {
+    width: 100px;
+}
+
+#featured-image-column {
+    display: flex;
+    order: 2;
+}
+
+#featured-image-column img {
+    width: fit-content;
+}
+/* product info column */
+#product-info-column {
+    width: 400px;
+    order: 3;
+}
+
+#seller-profile-img {
+    border-radius: 100px;
+    width: 80px;
+}
