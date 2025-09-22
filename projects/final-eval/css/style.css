@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Aubrey&family=Funnel+Display:wght@300..800&family=Kaushan+Script&family=Lobster&family=Racing+Sans+One&display=swap');
 * {
     box-sizing: border-box;
 }
@@ -5,4 +6,61 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+}
+
+#title {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.racing-sans-one-regular {
+  font-family: "Racing Sans One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#centered-single-column {
+    margin: 36px auto;
+    max-width: 1200px;
+    text-align: center;
+    background-color: bisque;
+}
+
+#teams-side-by-side {
+    display: flex;
+    align-items: center;
+    margin: 0px auto;
+    padding: 60px 0px;
+}
+
+#title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px auto;
+    padding: 60px 0px;
+}
+
+#teams-side-by-side {
+    display: flex;
+    gap: 36px;
+    flex-direction: row;
+    margin: 36px 0px;
+}
+
+#teams-side-by-side .team-card{
+    text-align: center;
+}
+
+#teams-side-by-side .team-card h2{
+    text-align: center;
+    margin: 24px 0px 0px;
+}
+
+#teams-side-by-side img {
+    width: 50%;
+}
+
+.vs {
+    font-size: 70px;
 }
