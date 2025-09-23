@@ -9,35 +9,53 @@ body {
 }
 
 #title {
-    width: 600px;
+    width: 1000px;
+    color: white;
     margin-left: auto;
     margin-right: auto;
 }
 
+#title h3 {
+    margin: 0%;
+}
+
+#title h1 {
+    font-size: 90px;
+    margin: 0%;
+}
+
+#title h2 {
+    margin: 0%;
+}
+
 .racing-sans-one-regular {
-  font-family: "Racing Sans One", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Racing Sans One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 #centered-single-column {
+    border: 10px solid rgb(20, 89, 66);
+    padding: 100px;
+    padding-top: 10;
     margin: 36px auto;
     max-width: 1200px;
     text-align: center;
-    background-color: bisque;
+    background-color: gray;
 }
 
 #teams-side-by-side {
+    border: 10px solid goldenrod;
+    padding: 48px;
     display: flex;
     align-items: center;
-    margin: 0px auto;
-    padding: 60px 0px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #title {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 100px auto;
     padding: 60px 0px;
 }
 
@@ -45,22 +63,54 @@ body {
     display: flex;
     gap: 36px;
     flex-direction: row;
-    margin: 36px 0px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
-#teams-side-by-side .team-card{
+#teams-side-by-side .team-card {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#teams-side-by-side .team-card h2 {
     text-align: center;
 }
 
-#teams-side-by-side .team-card h2{
-    text-align: center;
-    margin: 24px 0px 0px;
-}
-
-#teams-side-by-side img {
-    width: 50%;
+#teams-side-by-side .team-card h2 {
+    font-size: 40px;
+    color: white;
+    margin: 0%;
+    
 }
 
 .vs {
     font-size: 70px;
+    margin: 0%;
+}
+
+.button {
+    background-color: rgb(20, 89, 66);
+    border-radius: 40px;
+    border: 2px solid goldenrod;
+    display: inline-block;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom: 24px;
+}
+
+p {
+    font-size: 40px;
+    color: white;
+}
+
+h1 {
+    color: white;
+}
+
+#date-time {
+    font-size: 70px;
+    margin: 0%;
 }
