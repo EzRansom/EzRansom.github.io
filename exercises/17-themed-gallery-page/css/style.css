@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Aubrey&family=Funnel+Display:wght@300..800&family=Kaushan+Script&family=Lobster&family=Racing+Sans+One&family=Rock+Salt&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: black;
+}
+
+.rock-salt-regular {
+  font-family: "Rock Salt", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#side-hero {
+    background-image: url("../images/elise-engel-HQAZvQeeFvc-unsplash.jpg");
+    background-size: cover;
+    background-position:center center;
+    height: 100vh;
+    box-shadow: 0 0 15px 1px rgb(76, 76, 191);
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 12vw;
+}
+
+#side-hero h1 {
+    font-size: 90px;
+    color: rgb(197, 11, 11);
+}
+
+#layout {
+    max-width: 800px;
+    margin: 48px auto;
+    text-align: center;
+}
+
+.horizontal-masonry-gallery {
+   /* fiddle with this to modify a horizontal masonry gallery */ 
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.horizontal-masonry-gallery img {
+    height: 250px;
+    flex: 1;
+    object-fit: cover;
+    box-shadow: 0 0 15px 1px rgb(76, 76, 191);
+}
