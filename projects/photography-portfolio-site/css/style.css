@@ -10,9 +10,9 @@ body {
 }
 
 .rubik-maps-regular {
-  font-family: "Rubik Maps", system-ui;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Rubik Maps", system-ui;
+    font-weight: 400;
+    font-style: normal;
 }
 
 #navbar {
@@ -67,7 +67,7 @@ body {
     text-align: center;
 }
 
-#side-hero .hero-content a.cta-button{
+#side-hero .hero-content a.cta-button {
     text-decoration: none;
     color: brown;
     background-color: black;
@@ -142,36 +142,47 @@ body {
     color: #0d1223;
 }
 
-@media screen and (max-width: 658px){
+@media screen and (max-width: 658px) {
     #navbar {
         flex-direction: column;
         align-items: center;
     }
     #side-hero h1 {
-    font-size: 60px;
-    color:  brown;
-    background-color: rgba(250, 235, 215, 0.567);
-    padding: 24px;
-}
+        font-size: 60px;
+        color:  brown;
+        background-color: rgba(255, 255, 255, 0.567);
+        padding: 24px;
+    }
     #side-hero {
         background-image: url("../images/urban-hi-res-2nse\ portrait.jpg");
     }
 
     #side-hero .hero-content {
         align-items: center;
-}
+    }
     #card-container {
-    display: flex;
-    flex-direction: column;
-    gap: 36px;
-    margin-left: 20px;
-    margin-right: 20px;
-}
+        display: flex;
+        flex-direction: column;
+        gap: 36px;
+        margin-top: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
     .horizontal-masonry-gallery {
-    /* fiddle with this to modify a horizontal masonry gallery */ 
-    display: flex;
-    flex-wrap: wrap;
-    gap: 24px;
-    
-}
+        /* fiddle with this to modify a horizontal masonry gallery */ 
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+        border-radius: 10px;
+        background-color: #f6f6f6;
+        padding: 24px;
+        box-shadow: 2px 4px 15px 1px brown;
+    }
+    .horizontal-masonry-gallery img {
+        height: 250px;
+        flex: 1;
+        object-fit: cover;
+        box-shadow: none;
+        border: 3px solid #0d1223;
+    }
 }
