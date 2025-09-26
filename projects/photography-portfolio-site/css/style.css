@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Aubrey&family=Funnel+Display:wght@300..800&family=Kaushan+Script&family=Lobster&family=Racing+Sans+One&family=Rock+Salt&family=Rubik+Maps&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: rgb(44, 44, 44);
+}
+
+.rubik-maps-regular {
+  font-family: "Rubik Maps", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#navbar {
+    background: linear-gradient(
+        to top,
+        gray,
+        rgb(74, 74, 74)
+    );
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+
+}
+
+#navbar #logo-container.rubik-maps-regular {
+    font-size: 38px;
+    
+}
+
+#navbar #logo-container {
+    margin-right: auto;
+}
+
+#side-hero {
+    background-image: url("../images/urban-hi-res-2nse.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 12vw;
+}
+
+#side-hero h1 {
+    font-size: 90px;
+    color:  brown;
+    background-color: rgba(250, 235, 215, 0.567);
+    padding: 24px;
+}
+
+#layout {
+    max-width: 800px;
+    margin: 48px auto;
+    text-align: center;
+}
+
+#side-hero .hero-content a.cta-button{
+    text-decoration: none;
+    color: brown;
+    background-color: black;
+    padding: 24px;
+    font-size: 24px;
+    border-radius: 40px;
+    border: 2px solid white;
+
+    display: inline-block;
+    margin-top: 400px;
+    margin-left: 100px;
+    align-items: center;
+    text-align: center;
+}
+
+.horizontal-masonry-gallery {
+    /* fiddle with this to modify a horizontal masonry gallery */ 
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.horizontal-masonry-gallery img {
+    height: 250px;
+    flex: 1;
+    object-fit: cover;
+    box-shadow: 2px 4px 15px 1px brown;
+}
+
+.card {
+    border: 3px solid #0d1223;
+    padding: 36px 32px;
+    align-items: center;
+    text-align: center;
+    margin: 36px 0px;
+    background-color: #f6f6f6;
+    border-radius: 20px;
+}
+
+.card h3 {
+    font-size: 36px;
+    margin: 10px;
+}
+
+.card p {
+    font-size: 24px;
+    margin: 30px 0px 0px;
+}
+
+#card-container {
+    display: flex;
+    gap: 36px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.cta-button {
+    text-decoration: none;
+    color: brown;
+    background-color: black;
+    padding: 12px;
+    font-size: 24px;
+    border-radius: 40px;
+    border: 2px solid white;
+    display: inline-block;
+    
+    align-items: center;
+    text-align: center;
+}
+
+.cta-button a {
+    text-decoration: none;
+    text-align: center;
+    color: #0d1223;
+}
+
+@media screen and (width: 400px){
+    #navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+    #side-hero h1 {
+    font-size: 60px;
+    color:  brown;
+    background-color: rgba(250, 235, 215, 0.567);
+    padding: 24px;
+}
+    #side-hero {
+        background-image: url("../images/urban-hi-res-2nse\ portrait.jpg");
+    }
+
+    #side-hero .hero-content a.cta-button {
+    text-decoration: none;
+    color: brown;
+    background-color: black;
+    padding: 24px;
+    font-size: 24px;
+    border-radius: 40px;
+    border: 2px solid white;
+
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+    #card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+    .horizontal-masonry-gallery {
+    /* fiddle with this to modify a horizontal masonry gallery */ 
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    
+}
+}
